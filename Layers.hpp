@@ -10,14 +10,14 @@
 #define Layers_hpp
 #include "Neuron.hpp"
 #include <stdio.h>
-class Layer
+class Layer1
 {
 private:
     static const int Neuron_max_num = 10;
 public:
-    Layer();
-    Layer(int neurons_num);
-    ~Layer();
+    Layer1();
+    Layer1(int neurons_num);
+    ~Layer1();
     Neuron neurons_[Neuron_max_num];
     int neurons_num_;
 };
